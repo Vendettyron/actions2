@@ -1,0 +1,13 @@
+name: deploy
+
+on: push
+
+jobs:
+  dependecias:
+    runs-on: ubuntu-latest
+    steps:
+      - name: descargar-proyecto
+      - uses: actions/checkout@v3
+
+  
+
