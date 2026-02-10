@@ -15,7 +15,7 @@ jobs:
       - name: instalar-dependencias
         run: npm ci
       - name: ejecutar-tests
-        run: npm test
+        run: npm run test
       - name: linting
         run: npm run lint
       - name: construir-proyecto
